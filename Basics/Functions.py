@@ -424,12 +424,581 @@ action = "bite"
 print("Does your {} {}?".format(animal, action))
 
 # Example 3
-maria_string = "Maria loves {} and {}"
+maria_string =  "Maria loves {} and {}"
 print(maria_string.format("math","statistics"))
 
 
 """ If you need to include a brace character in the 
 literal text, it can be escaped by doubling: {{ and }}."""
+
+2.34.islower()
+
+
+# Browse the complete list of string methods at:
+# https://docs.python.org/3/library/stdtypes.html#string-methods
+# and try them out here
+
+print(animal.capitalize())
+print(animal.casefold())
+print(animal.center(10))
+.
+.
+.
+.
+"""format() Practice"""
+
+# Write two lines of code below, each assigning a value to a variable
+
+
+# Now write a print statement using .format() to print out a sentence and the 
+#   values of both of the variables
+
+
+
+print("the sum of {} + {} is 5".format(2,3))
+
+""" Lists! """
+
+list_of_random_things = [1, 3.4, 'a string', True]
+
+#to pull the first element of the list
+list_of_random_things[0]
+
+#to pull the last element of the list
+list_of_random_things[len(list_of_random_things) - 1]
+
+
+"""Alternatively, you can index from the end of a list by using negative values,
+ where -1 is the last element, -2 is the second to last element and so on."""
+
+
+list_of_random_things[-1] 
+
+list_of_random_things[-2]
+
+"""Slice and Dice with Lists"""
+
+list_of_random_things = [1, 3.4, 'a string', True]
+list_of_random_things[1:2]
+list_of_random_things[:2]
+list_of_random_things[1:]
+
+"""This type of indexing works exactly the same
+ on strings, where the returned value will be a string."""
+ 
+ 
+'this' in 'this is a string'
+
+'in' in 'this is a string'
+
+'isa' in 'this is a string'
+
+5 not in [1, 2, 3, 4, 6]
+
+5 in [1, 2, 3, 4, 6]
+
+"""
+Mutability and Order
+
+Mutability is about whether or not we can change an object once it has been created. 
+If an object (like a list or string) can be changed (like a list can), then 
+it is called mutable. However, if an object cannot be changed with creating a 
+completely new object (like strings), then the object is considered immutable.
+"""
+#mutability works on list
+my_lst = [1, 2, 3, 4, 5]
+my_lst[0] = 'one'
+print(my_lst)
+
+#However following code does not work 
+greeting = "Hello there"
+greeting[0] = 'M'
+
+
+"""
+There are two things to keep in mind for each of the data types you are using:
+
+    Are they mutable?
+    Are they ordered?
+"""
+
+
+"""Both strings and lists are ordered."""
+
+"""
+List indexing quiz
+
+Use list indexing to determine how many days are in a particular month based 
+on the integer variable month, and store that value in the integer variable num_days.
+"""
+
+month = 8
+days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+# use list indexing to determine the number of days in month
+
+num_days=days_in_month[7:8]
+print(num_days)
+
+"""Select the three most recent dates from this list using list slicing notation"""
+
+eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
+                 'March 29, 2006', 'August 1, 2008', 'July 22, 2009',
+                 'July 11, 2010', 'November 13, 2012', 'March 20, 2015',
+                 'March 9, 2016']
+                 
+                 
+# TODO: Modify this line so it prints the last three elements of the list
+print(eclipse_dates[6:-1])
+
+
+
+"""Useful Functions for Lists I
+
+len() returns how many elements are in a list.
+
+max() returns the greatest element of the list. 
+
+min() returns the smallest element in a list
+
+sorted() returns a copy of a list in order from smallest to largest, leaving the list unchanged.
+
+"""
+
+max(eclipse_dates)
+
+sorted(eclipse_dates)
+
+"""
+Useful Functions for Lists II
+join method
+
+Join is a string method that takes a list of strings as an argument,
+ and returns a string consisting of the list elements joined by a separator string.
+
+"""
+
+new_str = "\n".join(["fore", "aft", "starboard", "port"])
+print(new_str)
+
+name = "-".join(["García", "O'Kelly"])
+print(name)
+
+"""
+append method
+
+append adds an element to the end of a list.
+"""
+
+letters = ['a', 'b', 'c', 'd']
+letters.append('z')
+print(letters)
+
+"""
+
+Quiz: len, max, min, and Lists
+
+What would the output of the following code be?
+"""
+
+
+a = [1, 5, 8]
+b = [2, 6, 9, 10]
+c = [100, 200]
+
+print(max([len(a), len(b), len(c)]))
+print(min([len(a), len(b), len(c)]))
+
+
+"""
+Quiz: sorted, join, and Lists
+
+What would the output of the following code be? 
+
+"""
+
+names = ["Carol", "Albert", "Ben", "Donna"]
+print(" & ".join(sorted(names)))
+
+
+"""
+Quiz: append and Lists
+
+What would the output of the following code be?
+"""
+
+names = ["Carol", "Albert", "Ben", "Donna"]
+names.append("Eugenia")
+print(sorted(names))    
+
+# Use this playground to experiment with list methods, using Test Run
+
+names_copy = names
+names_copy[0]='Niju'
+
+names.
+
+
+"""
+Tuples
+
+It's a data type for immutable ordered sequences of elements. 
+"""
+
+
+location = (13.4125, 103.866667)
+print("Latitude:", location[0])
+print("Longitude:", location[1])
+
+
+"""Tuples can also be used to assign multiple variables in a compact way."""
+
+dimensions = 52, 40, 100
+
+#Tuple unpacking
+length, width, height = dimensions
+print("The dimensions are {} x {} x {}".format(length, width, height))
+
+"""The parentheses are optional when defining tuples"""
+
+
+length, width, height = 52, 40, 100
+print("The dimensions are {} x {} x {}".format(length, width, height))
+
+"""What would the output of the following code be? """
+
+
+tuple_a = 1, 2
+tuple_b = (1, 2)
+
+print(tuple_a == tuple_b)
+print(tuple_a[1])
+
+"""Tuples Playground"""
+
+## You may test any code out here. Use Test Run to see your output
+
+tuple_a.index(2)
+tuple_a.count(1)
+
+
+""" 
+Sets 
+
+A set is a data type for mutable unordered collections of unique elements. 
+One application of a set is to quickly remove duplicates from a list.
+
+"""
+
+numbers = [1, 2, 6, 3, 1, 1, 6]
+unique_nums = set(numbers)
+print(unique_nums)
+
+"""
+Sets support the in operator the same as lists do. You can add elements to 
+sets using the add method, and remove elements using the pop method, similar to lists.
+"""
+
+
+fruit = {"apple", "banana", "orange", "grapefruit"}  # define a set
+
+print("watermelon" in fruit)  # check for element
+
+fruit.add("watermelon")  # add an element
+print(fruit)
+
+print(fruit.pop())  # remove a random element
+print(fruit)
+
+
+""" What would the output of the following code be? """
+
+a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+b = set(a)
+print(len(a) - len(b))
+
+
+"""Quiz: add and pop"""
+
+a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+b = set(a)
+b.add(5)
+b.pop()
+
+"""Set Playground"""
+
+## You may test any code out here. Use Test Run to see your output
+
+""" 
+Dictionaries and Identity Operators 
+A dictionary is a mutable data type that stores mappings of unique keys to values. 
+"""
+
+elements = {"hydrogen": 1, "helium": 2, "carbon": 6}
+
+"""Dictionaries can have keys of any immutable type, 
+like integers or tuples, not just strings."""
+
+
+print(elements["helium"])  # print the value mapped to "helium"
+elements["lithium"] = 3  # insert "lithium" with a value of 3 into the dictionary
+
+
+elements['lithium']
+
+
+"""
+We can check whether a value is in a dictionary the same way we check whether
+ a value is in a list or set with the in keyword.'get' looks up values in a 
+ dictionary, but unlike square brackets, get returns None (or a default 
+ value of your choice) if the key isn't found.
+"""
+
+print("carbon" in elements)
+print(elements.get("dilithium")) #better to use if u expect lookup to fail
+print(elements['dilithium'])
+
+"""
+Identity Operators
+
+is --	evaluates if both sides have the same identity
+is not 	-- evaluates if both sides have different identities
+
+"""
+
+n = elements.get("dilithium")
+print(n is None)
+print(n is not None)
+elements
+
+print(elements['carbon'] is 6)  #to check for values in dictionary
+
+
+print('carbon' in elements ) # in checks for keys in dictionaries
+
+
+"""
+Quiz: Define a Dictionary
+
+Define a dictionary named population that contains this data:
+    """
+    
+    
+# Define a Dictionary, population,
+# that provides information
+# on the world's largest cities.
+# The key is the name of a city
+# (a string), and the associated
+# value is its population in
+# millions of people.
+
+#   Key     |   Value
+# Shanghai  |   17.8
+# Istanbul  |   13.3
+# Karachi   |   13.0
+# Mumbai    |   12.5
+    
+population= {'Shanghai':17.8,'Istanbul':13.3,'Karachi':13.0,'Mumbai':12.5 }
+
+
+"""get with a Default Value"""
+
+
+elements.get('dilithium')
+
+elements['dilithium']
+
+elements.get('kryptonite', 'There\'s no such element!')
+
+
+"""
+Checking for Equality vs. Identity: == vs. is
+"""
+
+#What will the output of the following code be?
+
+
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a == b)
+print(a is b)
+print(a == c)
+print(a is c)
+
+
+animals = {'dogs': [20, 10, 15, 8, 32, 15], 'cats': [3,4,2,8,2,4],
+           'rabbits': [2, 3, 3], 'fish': [0.3, 0.5, 0.8, 0.3, 1]}
+
+"""
+Compound Data Structures
+
+We can include containers in other containers to create compound data structures.
+"""
+
+
+elements = {"hydrogen": {"number": 1,
+                         "weight": 1.00794,
+                         "symbol": "H"},
+              "helium": {"number": 2,
+                         "weight": 4.002602,
+                         "symbol": "He"}}
+
+helium = elements["helium"]  # get the helium dictionary
+hydrogen_weight = elements["hydrogen"]["weight"]  # get hydrogen's weight
+
+
+
+
+"""
+Quiz: Adding Values to Nested Dictionaries
+ Add another entry, 'is_noble_gas,' to each dictionary in the elements dictionary.
+ """
+ 
+elements['hydrogen']['is_noble_gas']=False
+ 
+ 
+elements['helium']['is_noble_gas']=True
+
+print(elements['hydrogen']['is_noble_gas'])
+
+print(elements['helium']['is_noble_gas'])
+
+
+"""
+Collections
+
+Data Structures
+
+There are a number of built in python data structures that you will use all the time when programming. You can find a table of them available below:
+Data Structure 	Ordered 	Mutable 	Constructor 	Example
+int 	          NA 	     NA 	     int() 	          5
+float 	          NA 	     NA 	     float() 	     6.5
+string 	         Yes 	     No  ' ' or " " or str() 	"this is a string"
+bool 	          NA 	     NA 	      NA 	         True or False
+list 	         Yes 	     Yes 	    [ ] or list() 	 [5, 'yes', 5.7]
+tuple 	         Yes 	     No 	    ( ) or tuple() 	 (5, 'yes', 5.7)
+set 	         No 	     Yes 	    { } or set() 	 {5, 'yes', 5.7}
+dictionary 	     No 	     Keys: No 	{ } or dict() 	 {'Jun':75, 'Jul':89}
+
+"""
+
+"""
+Mathematical, Comparison, and Logical Operators
+
+
+Comparison Operators
+Symbol Use Case 	Bool 	Operation
+5 < 3 	          False 	Less Than
+5 > 3 	          True 	    Greater Than
+3 <= 3 	          True 	    Less Than or Equal To
+3 >= 5 	          False 	Greater Than or Equal To
+3 == 5 	          False 	Equal To
+3 != 5 	          True 	    Not Equal To
+
+And there are three logical operators you need to be familiar with:
+Logical Use 	     Bool 	Operation
+5 < 3 and 5 == 5 	False 	and - Evaluates if all provided statements are True
+5 < 3 or 5 == 5 	True 	or - Evaluates if at least one of many statements is True
+not 5 < 3 	True 	not - Flips the Bool Value
+"""
+
+"""
+
+Control Flow
+
+Welcome to this lesson on Control Flow! Control flow is the sequence in which your code is run. Here, we'll learn about several tools in Python we can use to affect our code's control flow:
+
+    Conditional Statements
+    Boolean Expressions
+    For and While Loops
+    Break and Continue
+    Zip and Enumerate
+    List Comprehensions
+
+"""
+
+"""If Statement"""
+
+phone_balance=4
+bank_balance=0
+if phone_balance < 5:  #The condition is specified in a boolean expression
+                        #that evaluates to either True or False.
+    phone_balance += 10
+    bank_balance -= 10
+
+
+"""If, Elif, Else"""
+
+season='spring'
+
+if season == 'spring':
+    print('plant the garden!')
+elif season == 'summer':
+    print('water the garden!')
+elif season == 'fall':
+    print('harvest the garden!')
+elif season == 'winter':
+    print('stay indoors!')
+else:
+    print('unrecognized season')
+
+
+
+"""
+Indentation
+
+In Python we use indentation to enclose blocks of code.
+
+Try it out!
+"""
+
+#First Example - try changing the value of phone_balance
+phone_balance = 10
+bank_balance = 50
+
+if phone_balance < 10:
+    phone_balance += 10
+    bank_balance -= 10
+
+print(phone_balance)
+print(bank_balance)
+
+#Second Example - try changing the value of number
+
+number = 145
+if number % 2 == 0:
+    print("Number " + str(number) + " is even.")
+else:
+    print("Number " + str(number) + " is odd.")
+
+#Third Example - try to change the value of age
+age = 35
+
+# Here are the age limits for bus fares
+free_up_to_age = 4
+child_up_to_age = 18
+senior_from_age = 65
+
+# These lines determine the bus fare prices
+concession_ticket = 1.25
+adult_ticket = 2.50
+
+# Here is the logic for bus fare prices
+if age <= free_up_to_age:
+    ticket_price = 0
+elif age <= child_up_to_age:
+    ticket_price = concession_ticket
+elif age >= senior_from_age:
+    ticket_price = concession_ticket
+else:
+    ticket_price = adult_ticket
+
+message = "Somebody who is {} years old will pay ${} to ride the bus.".format(age, ticket_price)
+print(message)
+
+
 
 
 
