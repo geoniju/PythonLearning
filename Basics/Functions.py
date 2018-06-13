@@ -999,6 +999,67 @@ message = "Somebody who is {} years old will pay ${} to ride the bus.".format(ag
 print(message)
 
 
+"""Practice: Which Prize
+Write an if statement that lets a competitor know which of these prizes they 
+won based on the number of points they scored, which is stored in the integer 
+variable points.
+
+Points 	 Prize
+1 - 50  	wooden rabbit
+51 - 150 	no prize
+151 - 180 	wafer-thin mint
+181 - 200 	penguin
+
+"""
+
+points = 174  # use this input to make your submission
+
+# write your if statement here
+if points <= 50:
+    result='wooden rabbit'
+elif points <= 150:
+    result='no prize'
+elif points <= 180:
+    result='wafer-thin-mint'
+elif points <=200:
+    result='penguin'
+else:
+    result= 'no prize'
+    
+print(result)
+        
+
+"""Quiz: Guess My Number
+
+You decide you want to play a game where you are hiding a number from someone. 
+Store this number in a variable called 'answer'. Another user provides a number 
+called 'guess'. By comparing guess to answer, you inform the user if their guess
+ is too high or too low.
+"""
+
+
+# '''
+# You decide you want to play a game where you are hiding 
+# a number from someone.  Store this number in a variable 
+# called 'answer'.  Another user provides a number called
+# 'guess'.  By comparing guess to answer, you inform the user
+# if their guess is too high or too low.
+
+# Fill in the conditionals below to inform the user about how
+# their guess compares to the answer.
+# '''
+answer = #provide answer
+guess = #provide guess
+
+if #provide conditional
+    result = "Oops!  Your guess was too low."
+elif #provide conditional
+    result = "Oops!  Your guess was too high."
+elif #provide conditional
+    result = "Nice!  Your guess matched the answer!"
+
+print(result)
+
 
 
 
