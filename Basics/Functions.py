@@ -1102,6 +1102,421 @@ elif state == 'NY':
 print(result)
 
 
+"""
+Complex Boolean Expressions
+
+"""
+
+if 18.5 <= weight / height**2 < 25:
+    print("BMI is considered 'normal'")
+
+if is_raining and is_sunny:
+    print("Is there a rainbow?")
+
+if (not unsubscribed) and (location == "USA" or location == "CAN"):
+    print("send email")
+
+
+"""
+Good and Bad Examples
+
+"""
+
+# Bad example
+if True:
+    print("This indented code will always get run.")
+    
+    
+# Another bad example
+if is_cold or not is_cold:
+    print("This indented code will always get run.")
+    
+    
+# Bad example
+if weather == "snow" or "rain":
+    print("Wear boots!")
+    
+# Bad example
+if is_cold == True:
+    print("The weather is cold!")
+    
+# Good example
+if is_cold:
+    print("The weather is cold!")
+    
+"""
+Truth Value Testing
+
+
+Here are most of the built-in objects that are considered False in Python:
+
+    constants defined to be false: None and False
+    zero of any numeric type: 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
+    empty sequences and collections: '"", (), [], {}, set(), range(0)
+
+"""
+
+
+errors = 3
+if errors:
+    print("You have {} errors to fix!".format(errors))
+else:
+    print("No errors to fix!")
+    
+"""errors has the truth value True because it's a non-zero number,
+ so the error message is printed. """
+ 
+ 
+ """
+ 
+ Quiz: Using Truth Values of Objects
+
+The code below is the solution to the Which Prize quiz you've seen previously. 
+You're going to rewrite this based on what you've learned about truth values.
+"""
+ 
+
+points = 174  # use this input when submitting your answer
+
+# set prize to default value of None
+prize = None
+
+# use the value of points to assign prize to the correct prize name
+if points <= 50:
+    prize = "wooden rabbit"
+elif 151 <= points <= 180:
+    prize = "wafer-thin mint"
+elif points >= 181:
+    prize = "penguin"
+
+# use the truth value of prize to assign result to the correct message
+if prize:
+    result = "Congratulations! You won a {}!".format(prize)
+else:
+    result = "Oh dear, no prize this time."
+print(result)
+
+
+
+
+"""
+For Loops
+A for loop is used to "iterate", or do something repeatedly, over an iterable. 
+An iterable is an object that can return one of its elements at a time. 
+This can include sequence types, such as strings, lists, and tuples, as well 
+as non-sequence types, such as dictionaries and files.
+"""
+#Example
+
+cities = ['new york city', 'mountain view', 'chicago', 'los angeles']
+for city in cities: #city is the iteration variable, and cities is 
+                    #the iterable being looped over
+    print(city)
+print("Done!")
+
+
+
+"""Using the Range() Function with For Loops
+range() is a built-in function used to create an iterable sequence of numbers. 
+"""
+for i in range(3):
+    print("Hello!" + str(i))
+
+
+"""range(start=0, stop, step=1)
+
+The range() function takes three integer arguments, the first and third of 
+which are optional:
+
+    The 'start' argument is the first number of the sequence. If unspecified, 
+    'start' defaults to 0.
+    The 'stop' argument is 1 more than the last number of the sequence. This 
+    argument must be specified.
+    The 'step' argument is the difference between each number in the sequence.
+    If unspecified, 'step' defaults to 1.
+
+Notes on using range():
+
+    If you specify one integer inside the parentheses withrange(), it's used 
+    as the value for 'stop,' and the defaults are used for the other two.
+    e.g. - range(4) returns 0, 1, 2, 3
+    If you specify two integers inside the parentheses withrange(), they're 
+    used for 'start' and 'stop,' and the default is used for 'step.'
+    e.g. - range(2, 6) returns 2, 3, 4, 5
+    Or you can specify all three integers for 'start', 'stop', and 'step.'
+    e.g. - range(1, 10, 2) returns 1, 3, 5, 7, 9
+
+"""
+
+"""Creating and Modifying Lists"""
+
+# Creating a new list
+cities = ['new york city', 'mountain view', 'chicago', 'los angeles']
+capitalized_cities = []
+
+for city in cities:
+    capitalized_cities.append(city.title())
+
+
+"""Modifying a list is a bit more involved, and requires the use of the range()
+ function. """
+
+cities = ['new york city', 'mountain view', 'chicago', 'los angeles']
+
+for index in range(len(cities)):
+    cities[index] = cities[index].title()
+
+print(cities)
+
+
+"""
+Quiz: Create Usernames
+
+Write a for loop that iterates over the names list to create a usernames list. 
+
+HINT: Use the .replace() method to replace the spaces with underscores. 
+
+"""
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+usernames = []
+
+# write your for loop here
+for name in names: 
+    usernames.append(name.replace(' ','_'))
+
+print(usernames)
+
+"""Let's say instead of creating a new list, we want to modify the names list 
+itself with the changes and write the following code. What would this do?
+"""
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+
+for name in names:
+    name = name.lower().replace(" ", "_")
+
+print(names)
+
+"""
+Quiz: Modify Usernames with Range
+
+Write a for loop that uses range() to iterate over the positions in usernames
+to modify the list. 
+
+
+"""
+usernames = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+
+# write your for loop here
+
+for i in range(len(usernames)):
+    usernames[i]=usernames[i].lower().replace(" ", "_")
+print(usernames)
+
+
+"""
+Quiz: Tag Counter
+Write a for loop that iterates over a list of strings, tokens, and counts how 
+many of them are XML tags. 
+"""
+
+tokens = ['<greeting>', 'Hello World!', '</greeting>']
+count = 0
+
+# write your for loop here
+
+for token in tokens:
+    if token[0] == '<' and token[-1] == '>':
+        count += 1
+        
+print(count)
+
+"""
+Quiz: Create an HTML List
+
+Write some code, including a for loop, that iterates over a list of strings 
+and creates a single string, html_str, which is an HTML list. 
+
+"""
+
+items = ['first string', 'second string']
+html_str = "<ul>\n"  # "\ n" is the character that marks the end of the line, it does
+                     # the characters that are after it in html_str are on the next line
+
+# write your code here
+for item in items:
+    html_str += "<li>{}</li>\n".format(item)
+html_str += "</ul>"
+
+print(html_str)
+
+print("<li>{}</li>\n".format(items[0]) + "</ul>"  )
+
+
+"""
+Iterating Through Dictionaries with For Loops
+
+"""
+
+    
+#Try it out
+
+cast = {
+           "Jerry Seinfeld": "Jerry Seinfeld",
+           "Julia Louis-Dreyfus": "Elaine Benes",
+           "Jason Alexander": "George Costanza",
+           "Michael Richards": "Cosmo Kramer"
+       }
+
+print("Iterating through keys:")
+for key in cast:
+    print(key)
+
+print("\nIterating through keys and values:")
+for key, value in cast.items():
+    print("Actor: {}    Role: {}".format(key, value))
+
+
+
+
+
+"""
+While Loops
+
+"""
+card_deck = [4, 11, 8, 5, 13, 2, 8, 10]
+hand = []
+
+# adds the last element of the card_deck list to the hand list
+# until the values in hand add up to 17 or more
+while sum(hand)  < 17:
+    hand.append(card_deck.pop())
+
+print(hand)
+
+"""
+
+
+    break terminates a loop
+    continue skips one iteration of a loop
+"""
+
+#Try it out
+
+manifest = [("bananas", 15), ("mattresses", 24), ("dog kennels", 42), ("machine", 120), ("cheeses", 5)]
+
+# the code breaks the loop when weight exceeds or reaches the limit
+print("METHOD 1")
+weight = 0
+items = []
+for cargo_name, cargo_weight in manifest:
+    print("current weight: {}".format(weight))
+    if weight >= 100:
+        print("  breaking loop now!")
+        break
+    else:
+        print("  adding {} ({})".format(cargo_name, cargo_weight))
+        items.append(cargo_name)
+        weight += cargo_weight
+
+print("\nFinal Weight: {}".format(weight))
+print("Final Items: {}".format(items))
+
+# skips an iteration when adding an item would exceed the limit
+# breaks the loop if weight is exactly the value of the limit
+print("\nMETHOD 2")
+weight = 0
+items = []
+for cargo_name, cargo_weight in manifest:
+    print("current weight: {}".format(weight))
+    if weight >= 100:
+        print("  breaking from the loop now!")
+        break
+    elif weight + cargo_weight > 100:
+        print("  skipping {} ({})".format(cargo_name, cargo_weight))
+        continue
+    else:
+        print("  adding {} ({})".format(cargo_name, cargo_weight))
+        items.append(cargo_name)
+        weight += cargo_weight
+
+print("\nFinal Weight: {}".format(weight))
+print("Final Items: {}".format(items))
+
+
+"""
+
+Zip and Enumerate
+
+Zip
+
+zip returns an iterator that combines multiple iterables into one sequence of tuples.
+
+"""
+
+list(zip(['a', 'b', 'c'], [1, 2, 3]))
+
+#unpack each tuple in a for loop
+
+letters = ['a', 'b', 'c']
+nums = [1, 2, 3]
+
+for letter, num in zip(letters, nums):
+    print("{}: {}".format(letter, num))
+
+
+some_list = [('a', 1), ('b', 2), ('c', 3)]
+letters, nums = zip(*some_list)
+
+
+"""
+Enumerate
+
+enumerate is a built in function that returns an iterator of tuples containing
+ indices and values of a list. 
+ 
+"""
+letters = ['a', 'b', 'c', 'd', 'e']
+for i, letter in enumerate(letters):
+    print(i, letter)
+
+"""
+List Comprehensions
+
+"""
+cities=['chennai','bangalore','mumbai']
+capitalized_cities = []
+for city in cities:
+    capitalized_cities.append(city.title())
+
+##can be reduced to below code using list comprehension
+    
+cities=['chennai','bangalore','mumbai']
+capitalized_cities = [city.title() for city in cities]
+
+
+
+"""
+Conditionals in List Comprehensions
+"""
+
+squares = [x**2 for x in range(9) if x % 2 == 0]
+
+#you ll get syntax error if you add else
+squares = [x**2 for x in range(9) if x % 2 == 0 else x + 3]
+
+
+#If you would like to add else, you have to move the conditionals to the 
+#beginning of the listcomp, right after the expression
+
+
+squares = [x**2 if x % 2 == 0 else x + 3 for x in range(9)]
+    
+
+"""Quixx
+
+
 
 
 
