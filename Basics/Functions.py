@@ -24,7 +24,7 @@ My electricity bills for the last three months have been $23, $32 and $64.
 # Write an expression that calculates the average of 23, 32 and 64.
 # Place the expression in this print statement.
 print((23 + 32 + 64)/3)
-
+print(10/4)
 
 # Fill this in with an expression that calculates how many tiles are needed.
 print(9*7 + 5*7)
@@ -113,15 +113,20 @@ print((first_word + ' ') * 5)
 
 first_word[0]
 first_word[0:2]
+first_word[1:2]
+first_word[2:4]
+first_word[2:-1]
+
 
 """len() is a built-in Python function that
  returns the length of an object, like a string in integer 
  format"""
  
 
-print(len("ababa") / len("ab"))
+print(len("ababac") / len("ab"))
 
-type(len("ababa") / len("ab"))
+type(len("ababa") / len("abc"))  #returns float
+type(len("ababa") // len("abc")) #returns int
 
 """Notice that the resultant value is a float"""
 
@@ -206,6 +211,8 @@ fri_sales = "95"
 
 total_sales=str(int(mon_sales)+int(tues_sales)+int(wed_sales)+int(thurs_sales)+int(fri_sales))
 print("This week's total sales:" + " " + total_sales )
+total_sales=int(mon_sales)+int(tues_sales)+int(wed_sales)+int(thurs_sales)+int(fri_sales)
+print("total sales:{}".format(total_sales))
 
 """
 String Methods
@@ -251,6 +258,8 @@ print(maria_string.format("math","statistics"))
 """ If you need to include a brace character in the 
 literal text, it can be escaped by doubling: {{ and }}."""
 
+print("Does {{your}} {} {}?".format(animal, action))
+
 2.34.islower()
 
 
@@ -259,8 +268,11 @@ literal text, it can be escaped by doubling: {{ and }}."""
 # and try them out here
 
 print(animal.capitalize())
-print(animal.casefold())
+print(animal.casefold()) #More stricter lowercasing
 print(animal.center(10))
+expandtabs
+endswith
+encode
 .
 .
 .
@@ -301,7 +313,9 @@ list_of_random_things[-2]
 list_of_random_things = [1, 3.4, 'a string', True]
 list_of_random_things[1:2]
 list_of_random_things[:2]
-list_of_random_things[1:]
+list_of_random_things[1:-1]
+list_of_random_things[-3:3]
+
 
 """This type of indexing works exactly the same
  on strings, where the returned value will be a string."""
