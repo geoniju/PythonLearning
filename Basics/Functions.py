@@ -401,6 +401,8 @@ sorted() returns a copy of a list in order from smallest to largest, leaving the
 
 max(eclipse_dates)
 
+len(eclipse_dates)
+
 sorted(eclipse_dates)
 
 """
@@ -413,7 +415,11 @@ Join is a string method that takes a list of strings as an argument,
 """
 
 new_str = "\n".join(["fore", "aft", "starboard", "port"])
+new_str_eclipse = "\n".join(eclipse_dates) #seperates list items by line
+new_str_eclipse = "\t".join(eclipse_dates) #seperates list items by tab
+new_str_eclipse = "----".join(eclipse_dates) #seperates list items by space
 print(new_str)
+print(new_str_eclipse)
 
 name = "-".join(["García", "O'Kelly"])
 print(name)
@@ -427,6 +433,8 @@ append adds an element to the end of a list.
 letters = ['a', 'b', 'c', 'd']
 letters.append('z')
 print(letters)
+letters.reverse() #reverse the list inplace
+sorted(letters) #sorts the list but does not modify list inplace
 
 """
 
@@ -452,7 +460,8 @@ What would the output of the following code be?
 """
 
 names = ["Carol", "Albert", "Ben", "Donna"]
-print(" & ".join(sorted(names)))
+print(" & ".join(sorted(names))) #output sorted and seperated by and
+print(" ".join(sorted(names))) #output sorted and seperated by space
 
 
 """
@@ -468,10 +477,24 @@ print(sorted(names))
 # Use this playground to experiment with list methods, using Test Run
 
 names_copy = names
-names_copy[0]='Niju'
+names_copy[0]='Niju' #changing this list also changes the main list "names"
 
-names.
+names_copy = names.copy()
+names_copy[0]='Geo' #changing this list does not change the actual list 
+                    #when we use .copy()
+print(names_copy)
 
+names_copy.pop() # displays and removes last element from the list inplace
+names_copy.count('Geo') # counts the number of elements in the list having value 'Geo'
+names_copy.remove('Geo') #Removes the element with value Geo
+names_copy.index('Ben') #gves the index number 
+names_copy.sort() #sort the list inplace
+names_copy.reverse() #reverse the list inplace
+names_copy.clear() #remove all elements from the list
+names_copy.extend('Albert') #splits a string element in the list into seperate character strings
+                            #applicable only on strings 
+names_copy.insert(1,3434)
+names_copy.extend(3434)
 
 """
 Tuples
