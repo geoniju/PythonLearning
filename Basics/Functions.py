@@ -495,6 +495,7 @@ names_copy.extend('Albert') #splits a string element in the list into seperate c
                             #applicable only on strings 
 names_copy.insert(1,3434)
 names_copy.extend(3434)
+names_string='NijuShanth'
 
 """
 Tuples
@@ -514,6 +515,7 @@ dimensions = 52, 40, 100
 
 #Tuple unpacking
 length, width, height = dimensions
+type(length)
 print("The dimensions are {} x {} x {}".format(length, width, height))
 
 """The parentheses are optional when defining tuples"""
@@ -527,6 +529,11 @@ print("The dimensions are {} x {} x {}".format(length, width, height))
 
 tuple_a = 1, 2
 tuple_b = (1, 2)
+tuple_c=tuple_a
+tuple_a is tuple_c #identity check
+tuple_b==tuple_c
+tuple_b is tuple_c
+tuple_d=list(tuple_a)
 
 print(tuple_a == tuple_b)
 print(tuple_a[1])
@@ -551,6 +558,12 @@ numbers = [1, 2, 6, 3, 1, 1, 6]
 unique_nums = set(numbers)
 print(unique_nums)
 
+unique_nums_copy=unique_nums
+unique_nums_copy.add('Niju')
+
+unique_nums_copy=unique_nums.copy()
+unique_nums_copy.add('geo')
+
 """
 Sets support the in operator the same as lists do. You can add elements to 
 sets using the add method, and remove elements using the pop method, similar to lists.
@@ -558,6 +571,8 @@ sets using the add method, and remove elements using the pop method, similar to 
 
 
 fruit = {"apple", "banana", "orange", "grapefruit"}  # define a set
+
+
 
 print("watermelon" in fruit)  # check for element
 
@@ -585,6 +600,24 @@ b.pop()
 """Set Playground"""
 
 ## You may test any code out here. Use Test Run to see your output
+b.add()
+b.clear()
+b.copy()
+b.difference()
+b.difference_update()
+b.discard()
+b.intersection()
+b.intersection_update()
+b.isdisjoint()
+b.issubset()
+b.issuperset()
+b.pop()
+b.remove()
+b.symmetric_difference()
+b.symmmetric_difference_update()
+b.union()
+b.update()
+
 
 """ 
 Dictionaries and Identity Operators 
@@ -612,8 +645,10 @@ We can check whether a value is in a dictionary the same way we check whether
 """
 
 print("carbon" in elements)
-print(elements.get("dilithium")) #better to use if u expect lookup to fail
-print(elements['dilithium'])
+#to access values in dictionary below two methods
+
+print(elements.get("dilithium",'NOT FOUND')) #better to use if u expect lookup to fail
+print(elements['dilithium']) #throws error if we use square bracket
 
 """
 Identity Operators
@@ -626,6 +661,7 @@ is not 	-- evaluates if both sides have different identities
 n = elements.get("dilithium")
 print(n is None)
 print(n is not None)
+
 elements
 
 print(elements['carbon'] is 6)  #to check for values in dictionary
@@ -721,6 +757,31 @@ elements['helium']['is_noble_gas']=True
 print(elements['hydrogen']['is_noble_gas'])
 
 print(elements['helium']['is_noble_gas'])
+
+
+"""pracice dictionary"""
+
+elements.clear()
+elements.copy()
+sample={}
+
+sample = sample.fromkeys(('emp_no','emp_name'),(2,3)) #create new key value pair with
+                                                        #given values
+elements.get('hydrogen')
+
+sample.items() #returns dictioinary keys and values as tuple pair
+
+sample.keys()
+sample.pop()
+sample.popitem()
+sample.setdefault('hydrogen') #sets the key 
+elements.setdefault('hydrogen') #sets the key to none if not existing else returns value
+elements.update(sample) #adds a dictionary or key value pair to dictionary
+elements.update({'Niju':420}) 
+
+sample.values()
+
+
 
 
 """
@@ -957,6 +1018,7 @@ elif state == 'NY':
     result = "Since you're from {}, your total cost is {}.".format(state, total_cost)
 
 print(result)
+
 
 
 """
@@ -1229,6 +1291,10 @@ cast = {
 print("Iterating through keys:")
 for key in cast:
     print(key)
+for key in cast.keys():
+    print(key)
+for values in cast.values():
+    print(values)
 
 print("\nIterating through keys and values:")
 for key, value in cast.items():
@@ -1335,6 +1401,7 @@ enumerate is a built in function that returns an iterator of tuples containing
  
 """
 letters = ['a', 'b', 'c', 'd', 'e']
+list(enumerate(letters))
 for i, letter in enumerate(letters):
     print(i, letter)
 
