@@ -270,6 +270,8 @@ print("Does {{your}} {} {}?".format(animal, action))
 print(animal.capitalize())
 print(animal.casefold()) #More stricter lowercasing
 print(animal.center(10))
+integerdat=533
+id(integerdat)
 expandtabs
 endswith
 encode
@@ -477,11 +479,15 @@ print(sorted(names))
 # Use this playground to experiment with list methods, using Test Run
 
 names_copy = names
+id(names_copy) #Both ids are equal
+id(names)
 names_copy[0]='Niju' #changing this list also changes the main list "names"
 
 names_copy = names.copy()
 names_copy[0]='Geo' #changing this list does not change the actual list 
                     #when we use .copy()
+id(names_copy) #id is different
+
 print(names_copy)
 
 names_copy.pop() # displays and removes last element from the list inplace
