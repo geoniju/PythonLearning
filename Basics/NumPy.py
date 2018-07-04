@@ -16,6 +16,24 @@ Created on Fri Jun 22 23:30:32 2018
 
 import numpy as np
 
+
+
+"""
+Numpy array and python lists
+
+similarities
+--access elements by position
+--access a range of elements
+--use loops like
+    for X in a:
+
+differences
+--each element should have same datatype (string,int,boolean, etc)
+--convenient functions mean(),std() (faster in numpy)
+--can be multidimensional
+"""
+
+
 # First 20 countries with employment data
 countries = np.array([
     'Afghanistan', 'Albania', 'Algeria', 'Angola', 'Argentina',
@@ -69,7 +87,7 @@ if True:
                 country_employment))
 
 # Numpy functions
-if False:
+if True:
     print(employment.mean())
     print(employment.std())
     print(employment.max())
@@ -87,6 +105,22 @@ def max_employment(countries, employment):
     return (max_country, max_value)
 
 
+"""
+Vecorized operations
+
+A vector is a list of numbers.
+
+1 2 3 + 4 5 6 = 5 7 9 #For numpy like in linear algebra
+1 2 3 + 4 5 6 = 1 2 3 4 5 6 #For list it concatenates
+
+1 2 3 * 3 = 3 6 9 #numpy 
+1 2 3 * 3 = 1 2 3 1 2 3 1 2 3 #list
+
+
+
+
+
+    
 # Change False to True for each block of code to see what it does
 
 # Arithmetic operations between 2 NumPy arrays
@@ -94,61 +128,61 @@ if False:
     a = np.array([1, 2, 3, 4])
     b = np.array([1, 2, 1, 2])
     
-    print a + b
-    print a - b
-    print a * b
-    print a / b
-    print a ** b
+    print(a + b)
+    print(a - b)
+    print(a * b)
+    print(a / b)
+    print(a ** b)
     
 # Arithmetic operations between a NumPy array and a single number
 if False:
     a = np.array([1, 2, 3, 4])
     b = 2
     
-    print a + b
-    print a - b
-    print a * b
-    print a / b
-    print a ** b
+    print(a + b)
+    print(a - b)
+    print(a * b)
+    print(a / b)
+    print(a ** b)
     
 # Logical operations with NumPy arrays
 if False:
     a = np.array([True, True, False, False])
     b = np.array([True, False, True, False])
     
-    print a & b
-    print a | b
-    print ~a
+    print(a & b)
+    print(a | b)
+    print(~a)
     
-    print a & True
-    print a & False
+    print(a & True)
+    print(a & False)
     
-    print a | True
-    print a | False
+    print(a | True)
+    print(a | False)
     
 # Comparison operations between 2 NumPy Arrays
 if False:
     a = np.array([1, 2, 3, 4, 5])
     b = np.array([5, 4, 3, 2, 1])
     
-    print a > b
-    print a >= b
-    print a < b
-    print a <= b
-    print a == b
-    print a != b
+    print(a > b)
+    print(a >= b)
+    print(a < b)
+    print(a <= b)
+    print(a == b)
+    print(a != b)
     
 # Comparison operations between a NumPy array and a single number
 if False:
     a = np.array([1, 2, 3, 4])
     b = 2
     
-    print a > b
-    print a >= b
-    print a < b
-    print a <= b
-    print a == b
-    print a != b
+    print(a > b)
+    print(a >= b)
+    print(a < b)
+    print(a <= b)
+    print(a == b)
+    print(a != b)
     
 # First 20 countries with school completion data
 countries = np.array([
@@ -228,24 +262,24 @@ if False:
     a = np.array([1, 2, 3, 4])
     b = np.array([True, True, False, False])
     
-    print a[b]
-    print a[np.array([True, False, True, False])]
+    print(a[b])
+    print(a[np.array([True, False, True, False])])
     
 # Creating the index array using vectorized operations
 if False:
     a = np.array([1, 2, 3, 2, 1])
     b = (a >= 2)
     
-    print a[b]
-    print a[a >= 2]
+    print(a[b])
+    print(a[a >= 2])
     
 # Creating the index array using vectorized operations on another array
 if False:
     a = np.array([1, 2, 3, 4, 5])
     b = np.array([1, 2, 3, 2, 1])
     
-    print b == 2
-    print a[b == 2]
+    print(b == 2)
+    print(a[b == 2])
 
 def mean_time_for_paid_students(time_spent, days_to_cancel):
     '''
