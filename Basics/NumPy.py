@@ -306,7 +306,7 @@ if True:
     print(a[a >= 2])
     
 # Creating the index array using vectorized operations on another array
-if False:
+if True:
     a = np.array([1, 2, 3, 4, 5])
     b = np.array([1, 2, 3, 2, 1])
     
@@ -378,24 +378,24 @@ gdp = pd.Series(gdp_values)
 # Change False to True for each block of code to see what it does
 
 # Accessing elements and slicing
-if False:
+if True:
     print life_expectancy[0]
     print gdp[3:6]
     
 # Looping
-if False:
+if True:
     for country_life_expectancy in life_expectancy:
         print 'Examining life expectancy {}'.format(country_life_expectancy)
         
 # Pandas functions
-if False:
+if True:
     print life_expectancy.mean()
     print life_expectancy.std()
     print gdp.max()
     print gdp.sum()
 
 # Vectorized operations and index arrays
-if False:
+if True:
     a = pd.Series([1, 2, 3, 4])
     b = pd.Series([1, 2, 1, 2])
   
