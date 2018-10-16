@@ -10,7 +10,7 @@ Created on Fri Jun 22 23:30:32 2018
 
 # numpy arrays are similar to python lists-contains sequence of elements and
 # those can be anything and ordered 
-
+# pandas series are built on numpy arrays
 
 import numpy as np
 
@@ -96,10 +96,22 @@ def max_employment(countries, employment):
     data, and the employment in that country.
     '''
     max_country = None  # Replace this with your code
-    max_value = None  # Replace this with your code
+    max_employment = 0  # Replace this with your code
+    for i in range(len(countries)):
+        country = countries[i]
+        country_employment = employment[i]
+        if country_employment > max_employment:
+            max_country = country
+            max_employment = country_employment
+    return max_country,max_employment
 
-    return (max_country, max_value)
+print(max_employment(countries,employment))
 
+
+employment.mean()
+employment.std()
+employment.max()
+employment.sum()
 
 """
 Vecorized operations
@@ -236,7 +248,7 @@ def overall_completion_rate(female_completion, male_completion):
     return (female_completion + male_completion) / 2
 
 
-overall_completion_rate(female_completion, male_completion)
+print(overall_completion_rate(female_completion, male_completion))
 
 import numpy as np
 
