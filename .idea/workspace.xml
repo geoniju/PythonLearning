@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beff30f1-9f5a-4cad-8935-d4b0528bed73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Basics/NumPy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/NumPy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WrangleAndAnalyzeProject/wrangle_act.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/WrangleAndAnalyzeProject/wrangle_act.ipynb" afterDir="false" />
+    <list default="true" id="beff30f1-9f5a-4cad-8935-d4b0528bed73" name="Default Changelist" comment="replaced false with true for testing">
+      <change afterPath="$PROJECT_DIR$/LoggingExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NaiveBayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class-working.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/PyMySQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/PyMySQL.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,54 +20,61 @@
     <session id="259559286">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.14" value="2" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="29" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="IPNB" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="63" />
+          <entry key="py" value="1609" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="79" />
-          <entry key="Python" value="63" />
+          <entry key="Python" value="1609" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/page_spider.py">
+        <entry file="file://$PROJECT_DIR$/Basics/NumPy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="323" column="7" lean-forward="true" selection-start-line="323" selection-start-column="7" selection-end-line="323" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -74,6 +85,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -84,12 +96,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/WrangleAndAnalyzeProject/wrangle_act.ipynb" />
-        <option value="$PROJECT_DIR$/Basics/NumPy.py" />
         <option value="$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/page_spider.py" />
+        <option value="$PROJECT_DIR$/NaiveBayes.py" />
+        <option value="$PROJECT_DIR$/hello-main.py" />
+        <option value="$PROJECT_DIR$/class-working.py" />
+        <option value="$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/utilities/url_utilities.py" />
+        <option value="$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/utilities/database_utilities.py" />
+        <option value="$PROJECT_DIR$/LoggingExample.py" />
+        <option value="$PROJECT_DIR$/Basics/NumPy.py" />
+        <option value="$PROJECT_DIR$/Basics/PyMySQL.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="21" />
     <option name="y" value="36" />
     <option name="width" value="1281" />
@@ -100,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,53 +134,17 @@
             </path>
             <path>
               <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="WrangleAndAnalyzeProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex_Files_Python_PyCharm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex_Files_Python_PyCharm" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex_Files_Python_PyCharm" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise Files" type="462c0819:PsiDirectoryNode" />
-              <item name="CH01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex_Files_Python_PyCharm" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise Files" type="462c0819:PsiDirectoryNode" />
-              <item name="CH01" type="462c0819:PsiDirectoryNode" />
-              <item name="01-08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex_Files_Python_PyCharm" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise Files" type="462c0819:PsiDirectoryNode" />
-              <item name="CH01" type="462c0819:PsiDirectoryNode" />
-              <item name="01-08" type="462c0819:PsiDirectoryNode" />
-              <item name="Done" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="PageSpider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/page_spider.py" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NaiveBayes.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,11 +167,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../PageSpider/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics/NumPy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,10 +201,60 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="class-working" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class-working.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello-main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello-main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.PythonLearningConfig" />
       <item itemvalue="Python.Run Page Spider" />
+      <item itemvalue="Python.hello-main" />
+      <item itemvalue="Python.class-working" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.class-working" />
+        <item itemvalue="Python.hello-main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -240,32 +274,70 @@
       <option name="project" value="LOCAL" />
       <updated>1534818336236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="replaced false with true for testing">
+      <created>1539669087989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539669087989</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20530303" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.25530303" />
+      <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.22878788" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972136" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32866043" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866043" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32919255" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32866043" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.24015151" />
+      <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.22878788" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32866043" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866043" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.33021808" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -300,14 +372,18 @@
     <MESSAGE value="replaced false with true for testing" />
     <option name="LAST_COMMIT_MESSAGE" value="replaced false with true for testing" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NaiveBayes.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/Functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WrangleAndAnalyzeProject/wrangle_act.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -315,30 +391,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/NumPy.py">
+    <entry file="file://$PROJECT_DIR$/wrangle_report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NaiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="100">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#26#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../PageSpider/page_spyder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="140">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wrangle_report.html">
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/utilities/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH03/03-05/Done/tests/utililites/test_url_utilities.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH03/03-05/Done/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH03/03-05/Done/page_spider.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-10/Done/page_spider.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-10/Done/utilities/database_utilities.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/page_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/utilities/database_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_Adv_Python/Exercise Files/01 Language/templstr_finished.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_Adv_Python/Exercise Files/01 Language/templstr_start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_Adv_Python/Exercise Files/05 Classes/compattrs_finished.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_Adv_Python/Exercise Files/05 Classes/comparison_start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_Adv_Python/Exercise Files/05 Classes/comparison_finished.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoggingExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex_Files_Adv_Python/Exercise Files/06 Logging/basiclog_start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex_Files_Python_PyCharm/Exercise Files/CH01/01-08/Done/utilities/url_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class-working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/PyMySQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/NumPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="323" column="7" lean-forward="true" selection-start-line="323" selection-start-column="7" selection-end-line="323" selection-end-column="7" />
         </state>
       </provider>
     </entry>
