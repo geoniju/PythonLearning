@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="acc9e63b-171e-46bf-9d05-f3bf70cee029" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonForEverybody.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonForEverybody.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonForEverybody.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonForEverybody.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Introduction to Data Science in Python - Soccer Data Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction to Data Science in Python - Soccer Data Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Investigate_Dataset_TMDB_V3/Investigate_a_Dataset_Final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Investigate_Dataset_TMDB_V3/Investigate_a_Dataset_Final.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WrangleAndAnalyzeProject/.ipynb_checkpoints/wrangle_act-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../WrangleAndAnalyzeProject/.ipynb_checkpoints/wrangle_act-checkpoint.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,44 +96,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581145543771" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581233481074">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1582945280373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581233481074" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581233481073">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1582945280373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581233481073" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581233481001">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1582945280373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581233481001" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581233481073">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1582945280373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581233481073" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1582428875814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582428875814" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582438986186">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582941014174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582438986185" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582941014174" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581145703474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581145703474" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/PythonForEverybody.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

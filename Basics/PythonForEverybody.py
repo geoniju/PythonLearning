@@ -12,5 +12,4 @@ for line in fhand:
         count = count + 1
 print('Number of lines starting with Subject: ', count)
 print('Thank you')
-    
 
