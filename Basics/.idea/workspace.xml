@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc9e63b-171e-46bf-9d05-f3bf70cee029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DictEx1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListEx2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListEx3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListEx4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListEx5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListEx6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonForEverybody.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonForEverybody.ipynb" afterDir="false" />
@@ -34,10 +41,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonForEverybody.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DictEx1.py" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.r.configuration.RActiveInterpreterProjectConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jobi\GitHubRepos\PythonLearning\Basics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.RunEx">
     <configuration name="PythonForEverybody" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,6 +71,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RunEx" type="PythonConfigurationType" factoryName="Python">
+      <module name="Basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Jobi\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DictEx1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.RunEx" />
+      <item itemvalue="Python.PythonForEverybody" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,6 +108,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581137123510</updated>
     </task>
+    <task id="LOCAL-00001" summary="made some progress in python for everybody">
+      <created>1582946015282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582946015282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -83,39 +128,71 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made some progress in python for everybody" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some progress in python for everybody" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Notifications" timestamp="1581145373279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581145373279" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582428851344">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582990638764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582428851344" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1581145543771">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582990638764" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1582946011382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581145543771" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1582945280373">
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582946011382" />
+    <state x="129" y="60" key="DiffContextDialog" timestamp="1582946157048">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1582945280373">
+    <state x="129" y="60" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1582946157048" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1582990628625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1582945280373">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582990628625" />
+    <state width="1345" height="191" key="GridCell.Tab.0.bottom" timestamp="1582991265914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1582945280373">
+    <state width="1345" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
+    <state width="1345" height="191" key="GridCell.Tab.0.center" timestamp="1582991265914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582945280373" />
+    <state width="1345" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
+    <state width="1345" height="191" key="GridCell.Tab.0.left" timestamp="1582991265914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
+    <state width="1345" height="191" key="GridCell.Tab.0.right" timestamp="1582991265914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582986746095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582986746095" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1582986746095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582986746095" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1582986746094">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582986746094" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1582986746095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582986746095" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1582428875814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582428875814" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1582946197089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582946197089" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582941014174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -124,5 +201,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581145703474" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582986691796">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582986691796" />
   </component>
 </project>
