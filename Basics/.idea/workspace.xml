@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc9e63b-171e-46bf-9d05-f3bf70cee029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DictEx1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListEx2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListEx3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListEx4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListEx5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListEx6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuplEx2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonForEverybody.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonForEverybody.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonForEverybody.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonForEverybody.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Data Science in Python - Soccer Data Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction to Data Science in Python - Soccer Data Analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Investigate_Dataset_TMDB_V3/Investigate_a_Dataset_Final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Investigate_Dataset_TMDB_V3/Investigate_a_Dataset_Final.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WrangleAndAnalyzeProject/.ipynb_checkpoints/wrangle_act-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../WrangleAndAnalyzeProject/.ipynb_checkpoints/wrangle_act-checkpoint.ipynb" afterDir="false" />
@@ -41,7 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DictEx1.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TuplEx2.py" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.r.configuration.RActiveInterpreterProjectConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -83,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DictEx1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TuplEx2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,10 +130,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581145373279" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582990638764">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583416670736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582990638764" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583416670736" />
     <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1582946011382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -149,26 +142,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="60" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1582946157048" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1582990628625">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583416669050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582990628625" />
-    <state width="1345" height="191" key="GridCell.Tab.0.bottom" timestamp="1582991265914">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583416669050" />
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1583417500290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
-    <state width="1345" height="191" key="GridCell.Tab.0.center" timestamp="1582991265914">
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
+    <state width="1345" height="186" key="GridCell.Tab.0.center" timestamp="1583417500290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
-    <state width="1345" height="191" key="GridCell.Tab.0.left" timestamp="1582991265914">
+    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
+    <state width="1345" height="186" key="GridCell.Tab.0.left" timestamp="1583417500290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
-    <state width="1345" height="191" key="GridCell.Tab.0.right" timestamp="1582991265914">
+    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right" timestamp="1583417500290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582991265914" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582986746095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -201,9 +194,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581145703474" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582986691796">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583416736423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582986691796" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583416736423" />
   </component>
 </project>
