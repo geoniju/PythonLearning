@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc9e63b-171e-46bf-9d05-f3bf70cee029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TuplEx2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BikeShareAnalysisProject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegEx1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegEx2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/PythonForEverybody-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonForEverybody.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonForEverybody.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TupleEx3.py" beforeDir="false" afterPath="$PROJECT_DIR$/TupleEx3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to Data Science in Python - Soccer Data Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction to Data Science in Python - Soccer Data Analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Investigate_Dataset_TMDB_V3/Investigate_a_Dataset_Final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Investigate_Dataset_TMDB_V3/Investigate_a_Dataset_Final.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WrangleAndAnalyzeProject/.ipynb_checkpoints/wrangle_act-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../WrangleAndAnalyzeProject/.ipynb_checkpoints/wrangle_act-checkpoint.ipynb" afterDir="false" />
@@ -34,7 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TuplEx2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BikeShareAnalysisProject.py" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.r.configuration.RActiveInterpreterProjectConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TuplEx2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BikeShareAnalysisProject.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,8 +89,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RunEx" />
       <item itemvalue="Python.PythonForEverybody" />
+      <item itemvalue="Python.RunEx" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -130,10 +133,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581145373279" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583416670736">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583586088379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583416670736" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583586088379" />
     <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1582946011382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -142,26 +145,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="60" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1582946157048" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583416669050">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583586086449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583416669050" />
-    <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1583417500290">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583586086449" />
+    <state width="619" height="186" key="GridCell.Tab.0.bottom" timestamp="1585478255641">
+      <screen x="0" y="0" width="640" height="440" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
-    <state width="1345" height="186" key="GridCell.Tab.0.center" timestamp="1583417500290">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584543625525" />
+    <state width="619" height="186" key="GridCell.Tab.0.bottom/0.0.640.440@0.0.640.440" timestamp="1585478255641" />
+    <state width="619" height="186" key="GridCell.Tab.0.center" timestamp="1585478255641">
+      <screen x="0" y="0" width="640" height="440" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
-    <state width="1345" height="186" key="GridCell.Tab.0.left" timestamp="1583417500290">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584543625524" />
+    <state width="619" height="186" key="GridCell.Tab.0.center/0.0.640.440@0.0.640.440" timestamp="1585478255641" />
+    <state width="619" height="186" key="GridCell.Tab.0.left" timestamp="1585478255640">
+      <screen x="0" y="0" width="640" height="440" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
-    <state width="1345" height="186" key="GridCell.Tab.0.right" timestamp="1583417500290">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584543625524" />
+    <state width="619" height="186" key="GridCell.Tab.0.left/0.0.640.440@0.0.640.440" timestamp="1585478255640" />
+    <state width="619" height="186" key="GridCell.Tab.0.right" timestamp="1585478255641">
+      <screen x="0" y="0" width="640" height="440" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583417500290" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584543625525" />
+    <state width="619" height="186" key="GridCell.Tab.0.right/0.0.640.440@0.0.640.440" timestamp="1585478255641" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1582986746095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -186,10 +193,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582946197089" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582941014174">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585929399664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582941014174" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585929399664" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581145703474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
