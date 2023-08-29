@@ -1,0 +1,22 @@
+What is the difference between List and Tuple?
+What is the difference between a Set and Dictionary?
+What is the difference between Python Arrays and lists?
+What is List Comprehension? Give an Example.
+What is Dictionary Comprehension? Give an Example
+What is a lambda function?
+What is zip and enumerate in Python?
+What are *args and *kwargs?
+What is a break, continue, and pass in Python? 
+What is the difference between a shallow copy and a deep copy?
+What are Decorators?
+What are Iterators in Python?
+What are Generators in Python?
+What are Pickling and Unpickling?
+What is __init__() in Python?
+What are Python namespaces?
+What is self in Python?
+How will you capitalize the first letter of string?
+What is map function in Python?
+How to combine dataframes in pandas?
+What is the difference between merge, join and concat function in pandas?
+
