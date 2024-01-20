@@ -1,0 +1,32 @@
+# default-backend-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: default-backend-service
+spec:
+  selector:
+    app: default-backend
+  ports:
+    - protocol: TCP
+      port: 80
+---
+# default-backend-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: default-backend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: default-backend
+  template:
+    metadata:
+      labels:
+        app: default-backend
+    spec:
+      containers:
+      - name: default-backend
+        image: nginx:alpine
+        ports:
+        - containerPort: 80

@@ -1,0 +1,22 @@
+# ingress-app1.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app1-ingress
+spec:
+  rules:
+  - host: app1.example.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: external-service
+            port:
+              number: 80
+  defaultBackend:
+    service:
+      name: default-backend-service
+      port:
+        number: 80

@@ -12,6 +12,8 @@ Replace the IP with the ClusterIP of your service
 Replace <cluster-ip> with the actual ClusterIP of your service
 
     curl http://<cluster-ip>:80
+    curl http://<service-name>:80
+    curl http://<service-name.default.svc.cluster.local>:80
 
 ##### To make request to the LoadBalancer service from outside cluster
 Replace <external-ip> with the actual external IP address of your LoadBalancer
@@ -23,7 +25,9 @@ Replace <external-ip> with the actual external IP address of your LoadBalancer
 Replace <cluster-ip> with the actual ClusterIP of your service
 Replace <nodeport> with the actual NodePort assigned to your service
     
-    curl http://<cluster-ip>:<nodeport>
+    curl http://<cluster-ip>:80
+    curl http://<service-name>:80
+    curl http://<service-name.default.svc.cluster.local>:80
 
 ##### To make request to the NodePort service from outside cluster
 
